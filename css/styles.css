@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color:black;
+    transition: ease 1s;
+    height: 100%;
+}
+
+.form-control {
+    border: 1px solid #777!important;
+}
+
+.navbar {
+    color: #fff!important;
+    height: 40px!important;
+    display: flex;
+    align-content: center;
+}
+
+.darkMode {
+    background-color: black!important;
+    color:white;
+    transition: ease 1s;
+}
+
+#botonDarkMode {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
+
+#botonLightMode {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.oculto {
+    display: none;
+}
+
+.sunMoon {
+    width: 32px;
+    height: 32px;
+    border-radius: 0.375rem;
+}
+
+.card {
+    border: 2px solid #ffc107;
+    padding: 1.5em;
+    width: 18rem;
+    margin: 1em;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#cardsTorneos {
+    padding: 50px 0;
+}
+
+.btn {
+    text-align: center;
+}
+
+.colorBlack {
+    color: #000;
+}
+
+.sectionTorneosTitle {
+    text-align: center;
+}
+
+.imgContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBgRight {
+    width: 100%;
+    height: auto;
+}
+
+.btnMisTorneos {
+    text-decoration: none;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: 0.38rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    color: #000;
+    margin-top: 1em;
+}
+
+.btnMisTorneos:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
+}
+
+#divTorneos {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#divTitle {
+    margin-top: 2em;
+}
